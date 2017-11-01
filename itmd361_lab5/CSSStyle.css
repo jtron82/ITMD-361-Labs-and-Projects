@@ -1,0 +1,58 @@
+body {
+  background-image: url("images/interstellarbg.jpg");
+  background-position: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#title {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 35px;
+  height: 50px;
+  text-decoration: underline;
+  color: white;
+  margin-top: 50px;
+}
+
+table {
+  position: relative;
+  width: 100%;
+  height: 150px;
+}
+
+th {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  border-bottom: 1px solid gray;
+  color: white;
+}
+
+tr {
+  height: 30px;
+}
+
+td {
+  font-size:15px;
+  border-bottom: 1px solid gray;
+  color: white;
+}
+
+.exp {
+  vertical-align: 3px;
+  font-size: smaller;
+}
+
+nav#list ul li {
+  list-style-type: none;
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-right: 75px;
+  margin-right: 40px;
+}
+
+nav#list ul li:hover {
+  transform: scale(1.2);
+}
